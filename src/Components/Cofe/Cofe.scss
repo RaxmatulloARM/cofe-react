@@ -1,0 +1,97 @@
+.cofe .container {
+    background-color: #2C343E;
+    width: 1280px;
+    height: 577px;
+    border-radius: 8px;
+    text-align: center;
+
+    .cofe__heading {
+        font-family: "Fraunces" serif;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 48px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #FEFCF7;
+        padding-top: 100px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .cofe__heading:hover {
+        color: gold;
+    }
+
+    .cofe__textbek {
+        width: 910px;
+        // height: 80px ;
+        opacity: 0.8px;
+        font-family: "Barlow" serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #FEFCF7;
+        padding-left: 370px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .cofe__textbek:hover {
+        color: gold;
+    }
+
+    .cofe__list {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        margin-left: 20px;
+        margin-top: 86px;
+         
+        .cofe__img {
+            margin-top: 72px;
+        }
+
+
+        .cofe__item {
+            background-color: #0E8784;
+            width: 350px;
+            height: 382px;
+            border-radius: 8px;
+        }
+
+        .cofe__title {
+            font-family: "Fraunces" serif;
+            font-size: 24px;
+            font-weight: 900;
+            line-height: 32px;
+            letter-spacing: 0px;
+            text-align: center;
+            color: #FEFCF7;
+            margin-top: 56px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .cofe__title:hover {
+            color: black;
+        }
+
+        .cofe__text {
+            width: 255px;
+            height: 78px;
+            top: 56px;
+            font-family: "Barlow" serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0px;
+            text-align: center;
+            margin-left: 47px;
+            color: #FEFCF7;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .cofe__text:hover {
+            color: black;
+          }
+    }
+}
